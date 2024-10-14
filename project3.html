@@ -32,11 +32,12 @@
             gap: 10px;               /* Optional: Add space between the images */
         }
         .image-row img {
-            width: 150px;              /* Set width to 150px for reduced size */
-            height: 100px;             /* Set height to maintain 3:2 ratio */
-            aspect-ratio: 3 / 2;       /* Enforce a 3:2 aspect ratio */
-            object-fit: cover;         /* Ensures the image covers the area while maintaining aspect ratio */
-            border: 2px solid #ccc;    /* Add a border around images */
+            width: calc(50% - 10px); /* Set width to fill 50% of the row minus gap */
+            max-width: 500px;        /* Max width for larger screens */
+            height: auto;            /* Maintain aspect ratio */
+            aspect-ratio: 3 / 2;     /* Enforce a 3:2 aspect ratio */
+            object-fit: cover;       /* Ensures the image covers the area while maintaining aspect ratio */
+            border: 2px solid #ccc;  /* Add a border around images */
         }
     </style>
 </head>
@@ -93,7 +94,9 @@
                     <div class="image-row">
                         <img src="assets/plasticdraw.jpg" alt="plastic draw" />
                         <img src="assets/design1.jpg" alt="Design 1" />
-                        <img src="assets/print10.jpg" alt="Plastic 1" />
+                    </div>
+                    <div class="image-row">
+                        <img src="assets/print1.jpg" alt="Plastic 1" />
                         <img src="assets/print2.jpg" alt="Plastic 2" />
                     </div>
                     <p>
@@ -102,6 +105,8 @@
                     <div class="image-row">
                         <img src="assets/design2.jpg" alt="Design 2" />
                         <img src="assets/print3.JPG" alt="Print 3" />
+                    </div>
+                    <div class="image-row">
                         <img src="assets/print4.jpg" alt="Print 4" />
                     </div>
                     <p>I thought this design was better and more functional, which made me very happy.</p>
@@ -122,6 +127,10 @@
                         <img src="assets/laser1.jpg" alt="Laser 1" />
                         <img src="assets/laser2.jpg" alt="Laser 2" />
                     </div>
+
+                    <!-- Reflection Section -->
+                    <h2>Reflection</h2>
+                    <p>This was by far my favorite project because I really enjoyed learning about soldering and laser cutting. It was also the most challenging for me as I struggled to make decisions quickly over the fear of making mistakes. This project by far will be the most useful project going forward as I will apply all the skills I learned.</p>
                 </div>
             </div>
         </div>

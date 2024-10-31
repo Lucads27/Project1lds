@@ -1,1 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Project 4</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        /* Custom styling for wider layout */
+        body {
+            background-color: #fff8e1; /* Pale beige color */
+        }
+        .container {
+            max-width: 1200px; /* Increase width */
+            margin: 0 auto;    /* Center the container */
+            padding: 20px;     /* Add padding */
+        }
+        /* Center all headings and subheadings */
+        h1, h2 {
+            text-align: center; /* Center headings */
+            margin-top: 40px;  /* Add spacing above headings */
+            margin-bottom: 20px; /* Add spacing below headings */
+        }
+        p {
+            text-align: justify; /* Justify text for readability */
+            margin-bottom: 20px; /* Add spacing below paragraphs */
+        }
+        /* Center specific text */
+        .center-text {
+            text-align: center; /* Center the text */
+            margin: 20px 0;    /* Optional: Add spacing around it */
+        }
+        /* Flexbox styling for images */
+        .image-row {
+            display: flex;
+            justify-content: center; /* Center the images horizontally */
+            flex-wrap: wrap;         /* Allow wrapping if there are too many images */
+            gap: 10px;               /* Optional: Add space between the images */
+            margin-bottom: 20px;     /* Add spacing below image rows */
+        }
+        .image-row img {
+            width: calc(50% - 10px); /* Set width to fill 50% of the row minus gap */
+            max-width: 500px;        /* Max width for larger screens */
+            height: auto;            /* Maintain aspect ratio */
+            aspect-ratio: 3 / 2;     /* Enforce a 3:2 aspect ratio */
+            object-fit: cover;       /* Ensures the image covers the area while maintaining aspect ratio */
+            border: 2px solid #ccc;  /* Add a border around images */
+        }
+    </style>
+</head>
+<body>
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a>Engineering</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="project1.html">Project 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="project2.html">Project 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="project3.html">Project 3</a></li>
+                    <li class="nav-item"><a class="nav-link" href="project4.html">Project 4</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Page content-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="text-center mt-5">
+                    <h1>Project 4: Open-source Assistive Technology</h1>
+                    <div class="image-row">
+                        <img src="assets/hand.jpg" alt="Hand" />
+                    </div>
+                    <h2>Review Documentation</h2>
+                    <p>
+                        We began this project by registering on the Enable hub and reviewing the project options. Initially, my partner and I chose a design other than the Phoenix Hand V3, but it quickly proved too complex. The instructions were in Spanish, and there were extra parts required that weren’t available in our kit. Ultimately, we decided to use the Phoenix Hand V3 design and proceeded with the printing process.
+                    </p>
 
+                    <h2>Print and Assemble the Model</h2>
+                    <p>
+                        After downloading all the necessary files, we began printing, adjusting the scale to 150% to ensure the fit. The printing process took several hours. Below are some images of our work in the Prusa slicer:
+                    </p>
+                    <div class="image-row">
+                        <img src="assets/prusa1.jpg" alt="Prusa Slicer 1" />
+                        <img src="assets/prusa2.jpg" alt="Prusa Slicer 2" />
+                        <img src="assets/prusa3.jpg" alt="Prusa Slicer 3" />
+                    </div>
+                    <p>
+                        After printing all the pieces, we used a tool to form the arm guard for the hand. Initially, we were concerned it might not work, as the guard was mistakenly printed using silk PLA. Another issue we encountered was with the screws, which didn’t fit into the tensioner blocks. We solved this by reprinting the blocks with smaller holes. Once everything was ready, we assembled the model. We had two types of assembly documentation: a video and a written manual. We tried both but found the video to be more efficient, as it allowed us to better visualize each step. Following the video closely, we ensured that each part fit correctly. Despite a few minor alignment challenges, the final assembly was successful, and the hand mechanism worked as intended. Reflecting on the process, we realized we should have taken more photos along the way and documented each step on our website in real-time.
+                    </p>
+                    <div class="image-row">
+                        <img src="assets/hand2.jpg" alt="Hand Assembly 2" />
+                        <img src="assets/hand3.jpg" alt="Hand Assembly 3" />
+                        <img src="assets/hand4.jpg" alt="Hand Assembly 4" />
+                    </div>
+
+                    <h2>Extend, Critique & Reflect</h2>
+                    <p>
+                        One improvement my partner and I would suggest is adding fingerprints to the design. These could enable biometrics and improve functionality when using touchscreens, as the current finger design doesn’t interact well with them.
+                    </p>
+                    <div class="image-row">
+                        <img src="assets/finger.jpg" alt="Finger Design Enhancement" />
+                    </div>
+
+                    <h2>My Reflection on the Project</h2>
+                    <p>
+                        As someone with limited experience interacting with disabled individuals, this project helped me develop a new perspective. Although we didn’t directly work with users who needed this device, the experience opened my eyes to the daily realities faced by many people. A quote from Sara Hendren in one of our readings resonated with me: “Each flesh envelope is miraculous and mundane in this way, lugging all its gear and getting where it needs to go.” This quote highlights that everyone faces unique challenges and physical limitations. This project has changed my understanding of what it means to be disabled and has deepened my empathy for those who navigate a world not always designed with their needs in mind.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
